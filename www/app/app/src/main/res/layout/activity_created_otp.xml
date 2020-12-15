@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C85E0"
+    tools:context=".CreatedOTPActivity">
+
+    <EditText
+        android:id="@+id/userOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:background = "@null"
+        android:translationX="130dp"
+        android:translationY="170dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="종료"
+        android:textColor="#1C85E0"
+        android:textStyle="bold"
+        android:translationX="80dp"
+        android:translationY="400dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Recreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="OTP 재생성"
+        android:textColor="#1C85E0"
+        android:textStyle="bold"
+        android:translationX="250dp"
+        android:translationY="400dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

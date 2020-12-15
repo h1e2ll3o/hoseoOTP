@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C85E0"
+    tools:context=".SendSMSRandomNumberActivity">
+
+    <TextView
+        android:id="@+id/Notice1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="300dp"
+        android:text="고객님이 가입하실 때"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:translationX="75dp"
+        android:translationY="200dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Notice2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="300dp"
+        android:text="입력하신 핸드폰으로 코드를"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:translationX="33dp"
+        android:translationY="280dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Notice3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="300dp"
+        android:text="보냈으니 확인해주세요"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:translationX="70dp"
+        android:translationY="360dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/SMS"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/msg"
+        android:translationX="160dp"
+        android:translationY="450dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

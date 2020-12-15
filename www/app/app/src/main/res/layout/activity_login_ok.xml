@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C85E0"
+    tools:context=".LoginOkActivity">
+
+    <TextView
+        android:id="@+id/MainName"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="300dp"
+        android:text="안녕하세요"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:translationX="120dp"
+        android:translationY="200dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/CustomerName"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="300dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:translationX="120dp"
+        android:translationY="320dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/Customer"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="300dp"
+        android:text="고객님"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:translationX="220dp"
+        android:translationY="320dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

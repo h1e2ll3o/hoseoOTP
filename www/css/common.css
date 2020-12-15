@@ -1,0 +1,36 @@
+*
+{
+margin: 0 auto;
+padding:0;
+}
+
+a
+{
+text-decoration: none;
+}
+
+ul li
+{
+list-style: none;
+}
+
+table
+{
+margin-top:10px;
+}
+
+.mem a:hover
+{
+color:red;
+}
+
+.inph
+{
+height:25px;
+}
+
+div#content{
+  position:absolute;
+  left:30%;
+  top:20%;
+}

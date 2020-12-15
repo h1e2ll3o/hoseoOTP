@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C85E0"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/MainName"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="300dp"
+        android:text="HoseoBank"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:translationX="120dp"
+        android:translationY="200dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/banking"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:src="@drawable/banking"
+        android:translationX="148dp"
+        android:translationY="340dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/logo"
+        android:translationX="165dp"
+        android:translationY="580dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

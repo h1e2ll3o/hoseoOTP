@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C85E0"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/ID"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:hint="아이디를 입력해주세요"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="#1C85E0"
+        android:textColorHint="#A6A6A6"
+        android:translationX="60dp"
+        android:translationY="200dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:hint="비밀번호를 입력해주세요"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="#1C85E0"
+        android:textColorHint="#A6A6A6"
+        android:translationX="60dp"
+        android:translationY="260dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <!--
+        <CheckBox
+            android:id="@+id/AutoLogin"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="로그인 정보 저장"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            android:translationX="60dp"
+            android:translationY="320dp"
+            tools:ignore="MissingConstraints" />
+ -->
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:text="로그인"
+            android:textColor="#1C85E0"
+            android:textStyle="bold"
+            android:translationX="110dp"
+            android:translationY="450dp"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
